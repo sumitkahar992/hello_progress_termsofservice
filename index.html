@@ -1,1 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - HelloProgress</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --border: #dadce0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #8ab4f8;
+                --text: #e8eaed;
+                --text-secondary: #9aa0a6;
+                --bg: #202124;
+                --bg-secondary: #303134;
+                --border: #5f6368;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 32px 0 16px;
+            color: var(--text);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin: 20px 0 12px;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        ul,
+        ol {
+            margin: 0 0 16px 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .contact-box {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+
+        .contact-box strong {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+            background: var(--bg-secondary);
+            text-decoration: none;
+        }
+
+        .nav-links a.active {
+            color: var(--primary);
+            background: var(--bg-secondary);
+            font-weight: 600;
+        }
+
+        .badge-trader {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            background: #e8f0fe;
+            color: #1a73e8;
+            margin-bottom: 12px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .badge-trader {
+                background: #1e3a5f;
+                color: #8ab4f8;
+            }
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-links">
+            <a href="https://sumitkahar992.github.io/hello_progress_termsofservice/" class="active">Terms of Service</a>
+            <a href="https://sumitkahar992.github.io/hello_progress_privacy/">Privacy Policy</a>
+        </nav>
+
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: November 16, 2026</p>
+
+        <div class="highlight-box">
+            <p>Please read these Terms of Service ("Terms") carefully before using <strong>HelloProgress</strong> (also
+                displayed on-device as <strong>Hello Progress</strong>, package
+                <code>com.github.helloprogress</code>, "the App"). By downloading, installing, or using the App, you
+                agree to be bound by these Terms.</p>
+        </div>
+
+        <h2>1. Description of Service</h2>
+        <p>HelloProgress is an Android event countdown, count-up, timer, and visual progress tracking application that
+            stores your event data locally on your device, provides reminders and overview views, and offers optional
+            paid upgrades.</p>
+        <ul>
+            <li><strong>Free Tier:</strong> Track up to <strong>5 active user-created events</strong> (in addition to
+                built-in dynamic system events), create countdowns, count-ups, and timers, receive event notifications
+                and reminders, share progress cards, and customize events using <strong>3 card design styles</strong>
+                (Solid, Swiss, Grid), <strong>6 background colors</strong> (plus foreground progress/text color and item
+                shape/size options), and the <strong>Inter</strong> font.</li>
+            <li><strong>Paid / PRO Features (HelloProgress PRO):</strong> Unlocks <strong>unlimited active
+                    events</strong>, <strong>home screen widgets</strong>, <strong>local JSON backup and
+                    restore</strong>, all <strong>15 card design styles</strong> (including Bars, Minimal, Wave, Dashed,
+                Orbit, Ticker, Pulse, Segment, Liquid, Matrix, Clean, and Simple), the full <strong>20-color palette and
+                    random/procedural colors</strong>, all <strong>8 custom fonts</strong>, and <strong>Auto-Configure
+                    styling</strong>.</li>
+        </ul>
+
+        <h2>2. Eligibility &amp; Acceptance</h2>
+        <p>You confirm that you meet the minimum digital consent age in your jurisdiction (at least 13 years old, with
+            parental or guardian consent if under 18) and will use the App in compliance with applicable laws.</p>
+
+        <div class="badge-trader">EU Digital Services Act (DSA) Compliance</div>
+        <h2>3. Trader Status &amp; EU/UK Regulatory Disclosures</h2>
+        <p>In accordance with the <strong>European Union Digital Services Act (Regulation (EU) 2022/2065, "DSA")</strong>
+            (Articles 30 and 31), the EU Consumer Rights Directive (Directive 2011/83/EU), and the <strong>UK Digital
+                Markets, Competition and Consumers Act 2024</strong>:</p>
+
+        <h3>3.1 Trader Declaration</h3>
+        <p><strong>HelloProgress</strong> is published, distributed, and operated by <strong>Sumit Kahar</strong>,
+            acting as an individual commercial developer / <strong>Trader</strong> in relation to the App and any paid
+            features, subscriptions, or digital purchases offered through Google Play.</p>
+
+        <h3>3.2 Self-Certification of Compliance (DSA Article 30(1)(e))</h3>
+        <p>The developer self-certifies that HelloProgress and all digital content or services offered through Google
+            Play comply with applicable rules of European Union law and mandatory consumer protection standards.</p>
+
+        <h3>3.3 Contact and Traceability</h3>
+        <p>Full trader identification details (legal name, geographical postal address, telephone number, and support
+            email) are permanently maintained in Section 17 ("Contact Us &amp; Legal Notice / Impressum") of these
+            Terms and displayed on the Google Play Store listing for users in the EEA and the United Kingdom.</p>
+
+        <h2>4. User Data &amp; Privacy</h2>
+        <p>HelloProgress does not require account registration or developer-hosted cloud storage. How local event data,
+            device permissions, and third-party billing/entitlement data are handled is governed by our
+            <a href="https://sumitkahar992.github.io/hello_progress_privacy/">Privacy Policy</a>.</p>
+
+        <h2>5. Purchases, Subscriptions &amp; Consumer Rights</h2>
+
+        <h3>5.1 Plans &amp; Pricing</h3>
+        <p>HelloProgress PRO is offered via <strong>Monthly</strong> and <strong>Yearly</strong> auto-renewing
+            subscriptions (which may include an introductory free trial where shown before checkout) and a
+            <strong>Lifetime</strong> one-time purchase, managed via Google Play Billing and RevenueCat. Exact pricing,
+            billing cycles, trial lengths, taxes, and included features are displayed in the App and on Google Play's
+            checkout screen before purchase.</p>
+
+        <h3>5.2 Auto-Renewal &amp; Cancellation</h3>
+        <ul>
+            <li>Recurring Monthly and Yearly subscriptions automatically renew via Google Play unless cancelled at least
+                24 hours before the end of the current billing or trial period.</li>
+            <li>Lifetime purchases are one-time non-consumable payments that unlock PRO without recurring renewal.</li>
+            <li>Manage, cancel, or review subscriptions anytime in <strong>Google Play Store &gt; Payments &amp;
+                    subscriptions &gt; Subscriptions</strong>, and restore eligible purchases anytime from the App's
+                paywall screen.</li>
+        </ul>
+
+        <h3>5.3 Refunds &amp; Google Play Billing</h3>
+        <p>Google Play processes all payments as merchant of record. Refund requests are handled under the
+            <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play
+                Refund Policy</a> and mandatory consumer laws.</p>
+
+        <h3>5.4 Statutory Right of Withdrawal (EEA &amp; UK Consumers)</h3>
+        <p>If you reside in the EEA or the United Kingdom, statutory consumer law generally grants a 14-day right of
+            withdrawal, subject to the statutory digital content/services exception under <strong>Art. 16(m) of
+                Directive 2011/83/EU</strong> when immediate performance begins with your prior express consent and
+            acknowledgment. Withdrawals or refunds may be requested through <a
+                href="https://play.google.com/store/account/orderhistory" target="_blank" rel="noopener">Google Play
+                Order History</a> or by contacting <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a>
+            for verification support.</p>
+
+        <h3>5.5 Legal Guarantee of Conformity</h3>
+        <p>Under Directive (EU) 2019/770 and equivalent UK consumer law (including the Consumer Rights Act 2015 and the
+            UK Digital Markets, Competition and Consumers Act 2024), consumers benefit from statutory legal guarantees
+            of conformity for digital content and digital services.</p>
+
+        <h2>6. User Content &amp; Acceptable Use</h2>
+        <p>You retain full ownership of the events, notes, and local backup files you create in HelloProgress. You agree
+            not to misuse the App, violate applicable laws, circumvent billing or entitlement controls, or
+            reverse-engineer the App except where permitted by mandatory law.</p>
+
+        <h2>7. Intellectual Property</h2>
+        <p>HelloProgress, including its code, card designs, graphics, and branding, belongs to <strong>Sumit
+                Kahar</strong> (with open-source components licensed under their respective third-party licenses listed
+            in the App). You are granted a limited, non-exclusive, non-transferable, revocable license to use the App
+            for personal, non-commercial purposes.</p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>The App relies on third-party platforms (such as Google Play Services, Google Play Billing, and RevenueCat)
+            governed by their respective terms and privacy policies.</p>
+
+        <h2>9. Disclaimers</h2>
+        <p>Except to the extent prohibited by mandatory applicable law (including the statutory legal guarantees of
+            conformity in Section 5.5), the App is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong>
+            without express or implied warranties. Because events and backups are stored locally on your device, you are
+            responsible for maintaining backups of important data.</p>
+
+        <h2>10. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, the developer is not liable for indirect, incidental, or consequential
+            damages (including loss of locally stored data), and aggregate liability is capped at the amount paid by you
+            for the App in the preceding 12 months. <strong>Nothing in these Terms excludes or limits liability that
+                cannot legally be excluded under mandatory local law.</strong></p>
+
+        <h2>11. Consumer Dispute Resolution</h2>
+        <p>Please contact us directly at <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a> to resolve
+            any concern amicably. We are neither obligated nor committed to participate in consumer arbitration
+            proceedings, without prejudice to your mandatory statutory rights.</p>
+
+        <h2>12. Termination</h2>
+        <p>You may stop using and uninstall the App at any time. We may suspend or terminate access for material breach
+            of these Terms or upon discontinuing the App with reasonable prior notice, preserving mandatory statutory
+            consumer refund rights where applicable.</p>
+
+        <h2>13. Changes to These Terms</h2>
+        <p>We may update these Terms periodically by posting changes on this page with a new "Last Updated" date and
+            providing reasonable notice for material changes.</p>
+
+        <h2>14. Governing Law &amp; Jurisdiction</h2>
+        <p>These Terms are governed by the laws of India, without prejudice to mandatory consumer protection laws and
+            competent courts in your country of residence if you reside in the EU, EEA, or United Kingdom.</p>
+
+        <h2>15. Severability</h2>
+        <p>If any provision is held invalid or unenforceable, the remaining provisions continue in full force.</p>
+
+        <h2>16. Interpretation</h2>
+        <p>Headings are for convenience only and do not limit the scope of any section.</p>
+
+        <h2>17. Contact Us &amp; Legal Notice (Impressum)</h2>
+        <p>For customer support, legal notices, or formal trader contact under EU/UK consumer and DSA rules:</p>
+
+        <div class="contact-box">
+            <p><strong>App Name:</strong> HelloProgress (Hello Progress)</p>
+            <p><strong>Developer / Trader:</strong> Sumit Kahar (Individual Commercial Developer / Trader)</p>
+            <p><strong>Trader Status:</strong> Declared Trader under EU Digital Services Act (Regulation (EU) 2022/2065)</p>
+            <p><strong>Legal Address:</strong> 438, Kaana Paar, Ramnagar, Dhani Bazar, Pharenda, Maharajganj - 273161,
+                India</p>
+            <p><strong>Telephone:</strong> <a href="tel:+919151382162">+91 9151382162</a></p>
+            <p><strong>Support Email:</strong> <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a></p>
+            <p><strong>Package Name:</strong> com.github.helloprogress</p>
+            <p><strong>Privacy Policy:</strong> <a
+                    href="https://sumitkahar992.github.io/hello_progress_privacy/">View Privacy Policy</a></p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 HelloProgress — Sumit Kahar. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
 
